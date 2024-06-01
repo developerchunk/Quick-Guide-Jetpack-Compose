@@ -66,4 +66,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // palette library
+    implementation(libs.androidx.palette)
+    // coil image library
+    implementation(libs.io.coil.kt)
 }
